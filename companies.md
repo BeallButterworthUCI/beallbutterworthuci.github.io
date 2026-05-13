@@ -16,7 +16,7 @@ description: Verified active companies that trace back to UCI Beall Butterworth 
 <section class="section">
   <div class="wrap">
 
-    <p style="max-width: 65ch;">Entries here are limited to teams with a publicly verifiable post-competition signal &mdash; a live company website, a follow-on competition win, a journalistic article, an SEC/Crunchbase entry, or a public LinkedIn role at a downstream company. Private rumors and unconfirmed acquisitions are deliberately excluded.</p>
+    <p style="max-width: 65ch;">Entries here are limited to teams with a publicly verifiable post-competition signal - a live company website, a follow-on competition win, a journalistic article, an SEC/Crunchbase entry, or a public LinkedIn role at a downstream company. Private rumors and unconfirmed acquisitions are deliberately excluded.</p>
 
     <div class="company-grid">
 
@@ -55,7 +55,7 @@ description: Verified active companies that trace back to UCI Beall Butterworth 
       <article class="company-card">
         <div class="company-card__origin">2019 Beall 2nd (CenSyn)</div>
         <h3 class="company-card__name">CenSyn Inc.</h3>
-        <p class="company-card__tag">CenSyn PenEEG &mdash; rapid EEG screening for non-convulsive seizures.</p>
+        <p class="company-card__tag">CenSyn PenEEG - rapid EEG screening for non-convulsive seizures.</p>
         <p class="company-card__body">Co-founded 2019 by Ayushi Patel (CEO), Andy Bhushan, and Trevor Silence (CTO). Berkeley SkyDeck Batch 12 ($105K cohort term, Demo Day September 28, 2021). NSF SBIR Phase I + Arizona Commerce Authority Innovation Challenge Grant (November 2023). HonorHealth strategic partnership (December 2022). Pursuing FDA 510(k).</p>
         <div class="company-card__meta"><span><strong>NSF SBIR</strong></span><span>Berkeley SkyDeck Batch 12</span></div>
       </article>

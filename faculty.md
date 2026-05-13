@@ -26,12 +26,12 @@ description: UCI faculty members who have mentored multiple BBComp teams - Prof.
     <p>Professor in the Henry Samueli School of Engineering, affiliated with the Beckman Laser Institute. Founding Director of <strong>Faculty Innovation</strong> at Samueli and founding Director of <strong>BioENGINE</strong>. UCI Associate Dean of Undergraduate Education since 2021.</p>
 
     <h3>Notable work</h3>
-    <p>Khine's "Shrinky Dink microfluidics" technique &mdash; printing microfluidic patterns onto Shrinky Dink polymer sheets, then heating them in a toaster oven &mdash; underpins both <strong>Vena Vitals</strong> and <strong>Makani Science</strong>. Honors include the 2009 MIT Technology Review TR35 Award (Top 35 Innovators Under 35 in the world).</p>
+    <p>Khine's "Shrinky Dink microfluidics" technique - printing microfluidic patterns onto Shrinky Dink polymer sheets, then heating them in a toaster oven - underpins both <strong>Vena Vitals</strong> and <strong>Makani Science</strong>. Honors include the 2009 MIT Technology Review TR35 Award (Top 35 Innovators Under 35 in the world).</p>
 
     <h3>BBComp mentees</h3>
     <ul>
-      <li><strong>2014 Beall 1st</strong> &mdash; Spero Diagnostics (sepsis diagnostic, co-mentored with Prof. Zoran Nenadic)</li>
-      <li><strong>2014 Beall 2nd</strong> &mdash; A Hundred Tiny Hands (children's inventor toolboxes)</li>
+      <li><strong>2014 Beall 1st</strong> - Spero Diagnostics (sepsis diagnostic, co-mentored with Prof. Zoran Nenadic)</li>
+      <li><strong>2014 Beall 2nd</strong> - A Hundred Tiny Hands (children's inventor toolboxes)</li>
     </ul>
 
     <h3>The Khine pipeline</h3>
@@ -67,12 +67,12 @@ description: UCI faculty members who have mentored multiple BBComp teams - Prof.
 
     <h3>BBComp mentees</h3>
     <ul>
-      <li><strong>2024 Beall 1st</strong> &mdash; NeoMold (3D-printable customizable ear mold for neonates with congenital ear deformities)</li>
-      <li><strong>2025 Beall 2nd</strong> &mdash; VeinGuard (non-compressive cervical collar; co-medical-advisor with Dr. Yama Akbari)</li>
-      <li><strong>2025 Beall 3rd</strong> &mdash; REACH (Andrew Eck is an undergraduate researcher in her lab)</li>
+      <li><strong>2024 Beall 1st</strong> - NeoMold (3D-printable customizable ear mold for neonates with congenital ear deformities)</li>
+      <li><strong>2025 Beall 2nd</strong> - VeinGuard (non-compressive cervical collar; co-medical-advisor with Dr. Yama Akbari)</li>
+      <li><strong>2025 Beall 3rd</strong> - REACH (Andrew Eck is an undergraduate researcher in her lab)</li>
     </ul>
 
-    <p>King's lab is the documented faculty origin for <strong>three Beall placements across the 2024-2025 cycle</strong> &mdash; the densest two-year faculty-mentor BBComp run in this archive.</p>
+    <p>King's lab is the documented faculty origin for <strong>three Beall placements across the 2024-2025 cycle</strong> - the densest two-year faculty-mentor BBComp run in this archive.</p>
   </div>
 </div>
 
@@ -87,7 +87,7 @@ description: UCI faculty members who have mentored multiple BBComp teams - Prof.
 
     <h3>BBComp mentees</h3>
     <ul>
-      <li><strong>2014 Beall 1st</strong> &mdash; Spero Diagnostics (co-mentored with Prof. Michelle Khine)</li>
+      <li><strong>2014 Beall 1st</strong> - Spero Diagnostics (co-mentored with Prof. Michelle Khine)</li>
     </ul>
   </div>
 </div>
@@ -99,12 +99,12 @@ description: UCI faculty members who have mentored multiple BBComp teams - Prof.
     <div class="profile__years">First Bren Professor · 2005</div>
   </aside>
   <div class="profile__body">
-    <p>Distinguished Professor Emeritus in the Department of Computer Science, Donald Bren School of ICS. Founding Director of the <strong>UCI Institute for Future Health</strong>. In 2005, named the <strong>first Bren Professor in Information and Computer Science</strong> &mdash; the named-chair role that anchors the school's faculty leadership. Sometimes called the "Father of Multimedia." Fellow of ACM, IEEE, AAAS, IAPR, AAAI, and SPIE.</p>
+    <p>Distinguished Professor Emeritus in the Department of Computer Science, Donald Bren School of ICS. Founding Director of the <strong>UCI Institute for Future Health</strong>. In 2005, named the <strong>first Bren Professor in Information and Computer Science</strong> - the named-chair role that anchors the school's faculty leadership. Sometimes called the "Father of Multimedia." Fellow of ACM, IEEE, AAAS, IAPR, AAAI, and SPIE.</p>
 
     <h3>BBComp mentees</h3>
     <ul>
-      <li><strong>2012 Butterworth Finalist</strong> &mdash; Pictorria (web-based image-understanding service)</li>
-      <li><strong>2013 Butterworth Finalist</strong> &mdash; Dentiverse (medical practice manager)</li>
+      <li><strong>2012 Butterworth Finalist</strong> - Pictorria (web-based image-understanding service)</li>
+      <li><strong>2013 Butterworth Finalist</strong> - Dentiverse (medical practice manager)</li>
     </ul>
   </div>
 </div>
@@ -116,15 +116,15 @@ description: UCI faculty members who have mentored multiple BBComp teams - Prof.
     <div class="profile__years">UCI ICS</div>
   </aside>
   <div class="profile__body">
-    <p>Professor in the Informatics Department, Donald Bren School of ICS. Research areas: ubiquitous computing, human-computer interaction, AI, context-aware computing, sensors / GPS / RFID / accelerometers, gesture recognition, cloud computing. Notable contributions to "collapse informatics" &mdash; the intersection of HCI with sustainability and ICT4D.</p>
+    <p>Professor in the Informatics Department, Donald Bren School of ICS. Research areas: ubiquitous computing, human-computer interaction, AI, context-aware computing, sensors / GPS / RFID / accelerometers, gesture recognition, cloud computing. Notable contributions to "collapse informatics" - the intersection of HCI with sustainability and ICT4D.</p>
 
     <h3>Honors</h3>
     <p>UBICOMP 10-Year Impact Award. AIJ 5-Year Impact Award. CHI 2012 Best Paper Award. 2014 Outstanding Professor Award for the Donald Bren School of ICS.</p>
 
     <h3>BBComp mentees</h3>
     <ul>
-      <li><strong>2012 Butterworth Finalist</strong> &mdash; Rims (RFID Inventory Management System)</li>
-      <li><strong>2012 Butterworth Finalist</strong> &mdash; Whobot (social shopping)</li>
+      <li><strong>2012 Butterworth Finalist</strong> - Rims (RFID Inventory Management System)</li>
+      <li><strong>2012 Butterworth Finalist</strong> - Whobot (social shopping)</li>
     </ul>
   </div>
 </div>
@@ -140,7 +140,7 @@ description: UCI faculty members who have mentored multiple BBComp teams - Prof.
 
     <h3>BBComp mentees</h3>
     <ul>
-      <li><strong>2024 Beall 3rd</strong> &mdash; PetPointDx (at-home pet fecal testing kits)</li>
+      <li><strong>2024 Beall 3rd</strong> - PetPointDx (at-home pet fecal testing kits)</li>
     </ul>
   </div>
 </div>
@@ -156,7 +156,7 @@ description: UCI faculty members who have mentored multiple BBComp teams - Prof.
 
     <h3>BBComp mentees</h3>
     <ul>
-      <li><strong>2012 Butterworth Finalist</strong> &mdash; SmartHome (mobile-controlled home appliances)</li>
+      <li><strong>2012 Butterworth Finalist</strong> - SmartHome (mobile-controlled home appliances)</li>
     </ul>
   </div>
 </div>

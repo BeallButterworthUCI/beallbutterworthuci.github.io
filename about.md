@@ -9,7 +9,7 @@ description: About the UCI Beall Butterworth Competition Historical Archive - ho
   <div class="wrap">
     <div class="hero__eyebrow">About</div>
     <h1>About this archive</h1>
-    <p class="hero__lede">A durable, citation-backed record of a competition whose history would otherwise be scattered across press releases, the Wayback Machine, defunct project sites, and LinkedIn bios.</p>
+    <p class="hero__lede">A durable, citation-backed record of a competition whose history would otherwise be scattered across press releases, the Wayback Machine, defunct project sites and LinkedIn bios.</p>
   </div>
 </section>
 
@@ -33,7 +33,7 @@ Every fact on this site traces to a primary citation in the open-source [archive
 
 - the official BBComp past-winners pages at <a href="https://bbcomp.tech.uci.edu/" rel="noopener">bbcomp.tech.uci.edu</a>;
 - UCI press releases (news.uci.edu, engineering.uci.edu, innovation.uci.edu, merage.uci.edu, ics.uci.edu);
-- company filings, SEC documents, and recognized journalism (TechCrunch, BusinessWire, GlobeNewswire, PR Newswire, Orange County Business Journal);
+- company filings, SEC documents and recognized journalism (TechCrunch, BusinessWire, GlobeNewswire, PR Newswire, Orange County Business Journal);
 - peer-reviewed publications and conference papers, where relevant.
 
 Where a claim comes from a single secondary source it is explicitly marked as such. Where we have *not* been able to find a primary source, the archive uses sentinel values like `*No public record found*` or `UNVERIFIED` rather than guessing.
@@ -46,7 +46,7 @@ This site is **public**, so we publish only public information:
 - follow-on outcomes that are themselves public: incorporated company names, disclosed funding rounds, peer-reviewed publications, press coverage, university bios;
 - public scholarly affiliations (lab pages, faculty profiles, etc.).
 
-We deliberately do **not** publish: personal contact information, unconfirmed rumors, private business details, or anything not already in the public record.
+We deliberately do **not** publish: personal contact information, unconfirmed rumors and private business details. Anything not already in the public record we leave out.
 
 ## Contribute a correction
 

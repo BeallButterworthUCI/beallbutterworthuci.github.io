@@ -23,24 +23,24 @@ description: The Butterworth and Beall families - the alumni and philanthropic d
     <div class="profile__years">UCI alumni · since ~2003</div>
   </aside>
   <div class="profile__body">
-    <p><strong>Paul Butterworth</strong> earned both his B.S. (1974) and M.S. (1981) in Computer Science from UCI &mdash; originally enrolled as an Engineering undergraduate in 1969 and switched to Computer Science in his third year. <strong>Jo Butterworth</strong> earned her B.A. from the UCI School of Social Sciences in 1975.</p>
+    <p><strong>Paul Butterworth</strong> earned both his B.S. (1974) and M.S. (1981) in Computer Science from UCI - originally enrolled as an Engineering undergraduate in 1969 and switched to Computer Science in his third year. <strong>Jo Butterworth</strong> earned her B.A. from the UCI School of Social Sciences in 1975.</p>
 
-    <p>Paul's career took him through <strong>Ingres</strong> (Chief Systems Architect), <strong>Forte Software</strong> (Founder, Chief Architect, SVP &mdash; acquired by Sun Microsystems in October 1999 for $540M stock-for-stock, around $700M fully diluted at closing), <strong>Sun Microsystems</strong> (Distinguished Engineer / Chief Technologist), <strong>Oracle</strong> (Architect), <strong>AmberPoint</strong> (Co-founder and CTO; acquired by Oracle in 2010), and <strong>Emotive</strong>, before co-founding <strong>VANTIQ Inc.</strong> in 2014, where he serves as CTO.</p>
+    <p>Paul's career took him through <strong>Ingres</strong> (Chief Systems Architect), <strong>Forte Software</strong> (Founder, Chief Architect, SVP - acquired by Sun Microsystems in October 1999 for $540M stock-for-stock, around $700M fully diluted at closing), <strong>Sun Microsystems</strong> (Distinguished Engineer / Chief Technologist), <strong>Oracle</strong> (Architect), <strong>AmberPoint</strong> (Co-founder and CTO; acquired by Oracle in 2010), and <strong>Emotive</strong>, before co-founding <strong>VANTIQ Inc.</strong> in 2014, where he serves as CTO.</p>
 
     <h3>The 2023 pledge</h3>
-    <p>On <strong>February 13, 2023</strong>, Paul and Jo Butterworth pledged an estate gift valued at approximately <strong>$35.5 million</strong> to the Donald Bren School of ICS &mdash; the <strong>largest gift to UCI from alumni</strong> at the time of announcement. The funds support scholarships and fellowships, new faculty hiring, research initiatives, and faculty chairs. Sponsorship of the Butterworth Product Development Competition (which the Butterworths have funded since approximately 2003-2004) continues alongside the larger endowment.</p>
+    <p>On <strong>February 13, 2023</strong>, Paul and Jo Butterworth pledged an estate gift valued at approximately <strong>$35.5 million</strong> to the Donald Bren School of ICS - the <strong>largest gift to UCI from alumni</strong> at the time of announcement. The funds support scholarships and fellowships, new faculty hiring, research initiatives, and faculty chairs. Sponsorship of the Butterworth Product Development Competition (which the Butterworths have funded since approximately 2003-2004) continues alongside the larger endowment.</p>
 
     <h3>UCI service &amp; honors</h3>
     <ul>
-      <li>ICS Dean's Leadership Council &mdash; since 2005</li>
-      <li>UCI Foundation Board of Trustees &mdash; since 2011</li>
-      <li>UCI Lauds &amp; Laurels Distinguished Alumnus &mdash; 2005</li>
-      <li>Donald Bren School of ICS Hall of Fame &mdash; 2015</li>
-      <li>UCI Alumni Association Extraordinarius Award &mdash; 2023, jointly with Jo Butterworth</li>
+      <li>ICS Dean's Leadership Council - since 2005</li>
+      <li>UCI Foundation Board of Trustees - since 2011</li>
+      <li>UCI Lauds &amp; Laurels Distinguished Alumnus - 2005</li>
+      <li>Donald Bren School of ICS Hall of Fame - 2015</li>
+      <li>UCI Alumni Association Extraordinarius Award - 2023, jointly with Jo Butterworth</li>
     </ul>
 
     <h3>Reflection from Paul Butterworth</h3>
-    <p><em>"I was considering not going to the university unless I received financial aid, because I didn't have any money... This is what inspired us to pledge support for students &mdash; so they can follow their dreams despite their financial situations."</em></p>
+    <p><em>"I was considering not going to the university unless I received financial aid, because I didn't have any money... This is what inspired us to pledge support for students - so they can follow their dreams despite their financial situations."</em></p>
   </div>
 </div>
 
@@ -58,10 +58,10 @@ description: The Butterworth and Beall families - the alumni and philanthropic d
     <h3>Beall family philanthropy at UCI</h3>
     <p>Total approximately <strong>$30 million</strong> as of 2019:</p>
     <ul>
-      <li><strong>2000</strong> &mdash; Founding gift from Rockwell International (honoring Beall's retirement) opens the <strong>Beall Center for Art + Technology</strong> at the Claire Trevor School of the Arts.</li>
-      <li><strong>2007</strong> &mdash; A $6.6M gift founds the <strong>Beall Center for Innovation and Entrepreneurship</strong> at the Paul Merage School of Business.</li>
-      <li><strong>2014</strong> &mdash; Beall Family Foundation sponsorship launches the <strong>Beall Student Design Competition</strong> in the Henry Samueli School of Engineering, creating the joint BBComp.</li>
-      <li><strong>2019</strong> &mdash; A multimillion-dollar gift leads to <strong>UCI Applied Innovation</strong> being renamed <strong>UCI Beall Applied Innovation</strong>.</li>
+      <li><strong>2000</strong> - Founding gift from Rockwell International (honoring Beall's retirement) opens the <strong>Beall Center for Art + Technology</strong> at the Claire Trevor School of the Arts.</li>
+      <li><strong>2007</strong> - A $6.6M gift founds the <strong>Beall Center for Innovation and Entrepreneurship</strong> at the Paul Merage School of Business.</li>
+      <li><strong>2014</strong> - Beall Family Foundation sponsorship launches the <strong>Beall Student Design Competition</strong> in the Henry Samueli School of Engineering, creating the joint BBComp.</li>
+      <li><strong>2019</strong> - A multimillion-dollar gift leads to <strong>UCI Applied Innovation</strong> being renamed <strong>UCI Beall Applied Innovation</strong>.</li>
     </ul>
 
     <p>The Beall Family Foundation also funds the <strong>UCI MIND Joan and Don Beall Scholar Award</strong> ($50K/year &times; 5, renewable; inaugural 2023 recipient Dr. S. Ahmad Sajjadi MD PhD) and the <strong>UCI MIND Beall Scholars Program</strong> (a high-school summer program in brain research, neuroscience, and geriatric medicine for students underrepresented in STEM). Recent 990 filings show 30+ awards per year (31 in 2023).</p>
@@ -93,7 +93,7 @@ description: The Butterworth and Beall families - the alumni and philanthropic d
   <div class="wrap">
     <div class="section__title">
       <h2>The competition's operating cast</h2>
-      <small>Not patrons &mdash; but the people who actually run it</small>
+      <small>Not patrons - but the people who actually run it</small>
     </div>
 
     <div class="profile">
