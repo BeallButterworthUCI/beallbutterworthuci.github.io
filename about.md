@@ -32,7 +32,7 @@ The competition is operated through **UCI Beall Applied Innovation** with day-to
 Every fact on this site traces to a primary citation in the open-source [archive repository](https://github.com/BeallButterworthUCI/History). Sources include:
 
 - the official BBComp past-winners pages at <a href="https://bbcomp.tech.uci.edu/" rel="noopener">bbcomp.tech.uci.edu</a>;
-- UCI press releases (news.uci.edu, engineering.uci.edu, innovation.uci.edu, merage.uci.edu, ics.uci.edu);
+- UCI press releases (news.uci.edu, engineering.uci.edu, innovation.uci.edu, merage.uci.edu and ics.uci.edu);
 - company filings, SEC documents and recognized journalism (TechCrunch, BusinessWire, GlobeNewswire, PR Newswire, Orange County Business Journal);
 - peer-reviewed publications and conference papers, where relevant.
 

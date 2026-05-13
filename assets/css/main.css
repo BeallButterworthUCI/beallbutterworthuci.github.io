@@ -187,8 +187,11 @@ hr {
 
 .site-nav {
   display: flex;
-  gap: 1.4rem;
-  font-size: 0.95rem;
+  gap: 1.2rem;
+  font-size: 0.94rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  max-width: 70%;
 }
 .site-nav a {
   text-decoration: none;
@@ -197,14 +200,76 @@ hr {
   padding: 0.25rem 0;
   border-bottom: 1.5px solid transparent;
   transition: color 120ms, border-color 120ms;
+  white-space: nowrap;
 }
 .site-nav a:hover,
 .site-nav a.is-active {
   color: var(--navy-900);
   border-bottom-color: var(--gold-500);
 }
-@media (max-width: 540px) {
-  .site-nav { gap: 1rem; font-size: 0.9rem; }
+
+/* Mobile nav: collapse to a details/summary disclosure */
+.site-nav-toggle {
+  display: none;
+}
+
+@media (max-width: 860px) {
+  .site-header__inner { position: relative; }
+  .site-nav-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: transparent;
+    border: 1px solid var(--rule);
+    color: var(--navy-900);
+    font-family: var(--sans);
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.5rem 0.85rem;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  .site-nav-toggle:hover {
+    border-color: var(--navy-800);
+    color: var(--navy-900);
+  }
+  .site-nav-toggle__bars {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .site-nav-toggle__bars span {
+    display: block;
+    width: 14px;
+    height: 1.5px;
+    background: currentColor;
+  }
+  .site-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 1.5rem;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-top: 2px solid var(--gold-500);
+    box-shadow: var(--shadow-2);
+    padding: 1rem 1.5rem;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    max-width: 80vw;
+    min-width: 220px;
+  }
+  .site-nav.is-open { display: flex; }
+  .site-nav a {
+    padding: 0.6rem 0;
+    border-bottom: 1px solid var(--rule);
+    border-top: none;
+  }
+  .site-nav a:last-child { border-bottom: none; }
+  .site-nav a:hover { color: var(--gold-700); border-bottom-color: var(--rule); }
 }
 
 /* ---------- Hero ---------- */

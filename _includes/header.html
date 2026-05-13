@@ -5,7 +5,11 @@
       <span class="site-mark__full">UCI Beall Butterworth Competition</span>
       <span class="site-mark__short">BBComp</span>
     </a>
-    <nav class="site-nav" aria-label="Primary">
+    <button type="button" class="site-nav-toggle" id="siteNavToggle" aria-controls="siteNav" aria-expanded="false" aria-label="Open menu">
+      <span class="site-nav-toggle__bars" aria-hidden="true"><span></span><span></span><span></span></span>
+      Menu
+    </button>
+    <nav class="site-nav" id="siteNav" aria-label="Primary">
       <a href="{{ '/' | relative_url }}#years">Years</a>
       <a href="{{ '/timeline/' | relative_url }}">Timeline</a>
       <a href="{{ '/stories/' | relative_url }}">Stories</a>
@@ -17,3 +21,23 @@
     </nav>
   </div>
 </header>
+
+<script>
+(function () {
+  var btn = document.getElementById('siteNavToggle');
+  var nav = document.getElementById('siteNav');
+  if (!btn || !nav) return;
+  btn.addEventListener('click', function () {
+    var open = nav.classList.toggle('is-open');
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  });
+  document.addEventListener('click', function (e) {
+    if (!nav.classList.contains('is-open')) return;
+    if (nav.contains(e.target) || btn.contains(e.target)) return;
+    nav.classList.remove('is-open');
+    btn.setAttribute('aria-expanded', 'false');
+    btn.setAttribute('aria-label', 'Open menu');
+  });
+})();
+</script>
