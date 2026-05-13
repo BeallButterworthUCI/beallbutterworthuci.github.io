@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<header class="year-header">
+  <div class="wrap">
+    <div class="year-header__eyebrow">{{ page.edition_label | default: "Annual Competition" }}</div>
+    <h1>{{ page.year }} {{ site.title }}</h1>
+    {% if page.theme %}<p class="year-header__sub">{{ page.theme }}</p>{% endif %}
+    {% if page.scale %}
+    <dl class="year-meta">
+      {% if page.scale %}<div><dt>Scale</dt><dd>{{ page.scale }}</dd></div>{% endif %}
+      {% if page.demo_day %}<div><dt>Demo Day</dt><dd>{{ page.demo_day }}</dd></div>{% endif %}
+      {% if page.purse %}<div><dt>Total purse</dt><dd>{{ page.purse }}</dd></div>{% endif %}
+    </dl>
+    {% endif %}
+  </div>
+</header>
+
+<section class="section">
+  <div class="wrap">
+    {{ content }}
+
+    {% assign years_sorted = site.years | sort: "year" %}
+    {% assign current_index = 0 %}
+    {% for y in years_sorted %}
+      {% if y.year == page.year %}{% assign current_index = forloop.index0 %}{% endif %}
+    {% endfor %}
+    {% assign prev_index = current_index | minus: 1 %}
+    {% assign next_index = current_index | plus: 1 %}
+    {% assign prev_year = years_sorted[prev_index] %}
+    {% assign next_year = years_sorted[next_index] %}
+
+    <nav class="year-nav">
+      <div>
+        {% if prev_year and prev_index >= 0 %}
+        <a href="{{ prev_year.url | relative_url }}">
+          <span class="year-nav__label">&larr; Previous</span>
+          <span class="year-nav__title">{{ prev_year.year }} &middot; {{ prev_year.theme | default: "Edition" | truncate: 40 }}</span>
+        </a>
+        {% endif %}
+      </div>
+      <div style="text-align: right;">
+        {% if next_year %}
+        <a href="{{ next_year.url | relative_url }}">
+          <span class="year-nav__label">Next &rarr;</span>
+          <span class="year-nav__title">{{ next_year.year }} &middot; {{ next_year.theme | default: "Edition" | truncate: 40 }}</span>
+        </a>
+        {% endif %}
+      </div>
+    </nav>
+  </div>
+</section>

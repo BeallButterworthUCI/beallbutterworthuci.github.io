@@ -1,0 +1,47 @@
+title: UCI Beall Butterworth Competition
+subtitle: Historical Archive
+description: >-
+  A citation-backed historical record of the UCI Beall Butterworth Competition
+  - the annual joint product-development showcase run by the Donald Bren School
+  of ICS (Butterworth track) and the Henry Samueli School of Engineering (Beall
+  track) at the University of California, Irvine.
+
+url: "https://beallbutterworthuci.github.io"
+baseurl: ""
+
+permalink: /:title/
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+
+collections:
+  years:
+    output: true
+    permalink: /years/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: years
+    values:
+      layout: year
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+  - .jekyll-cache/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap

@@ -1,0 +1,123 @@
+---
+layout: default
+title: Home
+description: A historical archive of the UCI Beall Butterworth Competition - over two decades of student product development at the University of California, Irvine.
+---
+
+<section class="hero">
+  <div class="wrap">
+    <div class="hero__eyebrow">Established 2003 &middot; Joint edition since 2014</div>
+    <h1>Twenty-two years of student products,<br>one shared archive.</h1>
+    <p class="hero__lede">A citation-backed historical record of the UCI Beall Butterworth Competition &mdash; the annual showcase where engineers and computer scientists at the University of California, Irvine ship something, in front of judges who ask hard product questions, and occasionally start companies.</p>
+    <a href="#years" class="hero__cta">Browse the years &rarr;</a>
+    <a href="{{ '/about/' | relative_url }}" class="hero__cta hero__cta--ghost">About the archive</a>
+  </div>
+</section>
+
+<section class="stat-strip">
+  <div class="wrap">
+    <div class="stat-strip__grid">
+      <div class="stat">
+        <div class="stat__num">22</div>
+        <div class="stat__label">Annual Butterworth editions</div>
+      </div>
+      <div class="stat">
+        <div class="stat__num">13</div>
+        <div class="stat__label">Annual Beall editions</div>
+      </div>
+      <div class="stat">
+        <div class="stat__num">2</div>
+        <div class="stat__label">Tracks plus International Prize</div>
+      </div>
+      <div class="stat">
+        <div class="stat__num">$20K</div>
+        <div class="stat__label">First-place purse since 2018</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="eras">
+  <div class="wrap">
+    <div class="section__title">
+      <h2>A history in eras</h2>
+      <small>2003 &ndash; 2026</small>
+    </div>
+    <p class="lede" style="max-width: 60ch;">The competition grew from a single-track software contest in the Donald Bren School of ICS into a campus-wide joint showcase that now graduates venture-backed companies, NIH-funded medical devices, and FDA-cleared products.</p>
+
+    <div class="era-grid">
+      <article class="era-card">
+        <div class="era-card__years">~2003 &ndash; 2013</div>
+        <h3 class="era-card__title">The Butterworth Era</h3>
+        <p class="era-card__body">Single-track software contest hosted by the Donald Bren School of ICS, sponsored by alumni Paul ('74, '81) and Jo ('75) Butterworth. Prize tier: $5K / $3.5K / $1.5K.</p>
+      </article>
+      <article class="era-card">
+        <div class="era-card__years">2014</div>
+        <h3 class="era-card__title">Inaugural Joint Edition</h3>
+        <p class="era-card__body">Donald R. Beall and the Beall Family Foundation fund the Beall Student Design Competition at the Henry Samueli School of Engineering. Software meets hardware in one combined ceremony.</p>
+      </article>
+      <article class="era-card">
+        <div class="era-card__years">2015 &ndash; 2017</div>
+        <h3 class="era-card__title">IoT and Bluetooth</h3>
+        <p class="era-card__body">A wave of small device + smartphone + cloud entries. Tag Team's crowd-GPS Bluetooth tag (2016) shipped five years before Apple's AirTag.</p>
+      </article>
+      <article class="era-card">
+        <div class="era-card__years">2018 &ndash; 2019</div>
+        <h3 class="era-card__title">Higher Stakes</h3>
+        <p class="era-card__body">Prize tier raised to $10K / $6.5K / $3.5K per placement. Eight-member teams. The first BBComp team to incorporate as a venture-backed company &mdash; CenSyn Inc., founded out of the 2019 Beall 2nd-place placement.</p>
+      </article>
+      <article class="era-card">
+        <div class="era-card__years">2020 &ndash; 2022</div>
+        <h3 class="era-card__title">Pandemic and Recovery</h3>
+        <p class="era-card__body">2020 cycle cancelled due to COVID-19. 2021 ran virtually. By 2022 the ceremony was back in person with a $40K+ total purse.</p>
+      </article>
+      <article class="era-card">
+        <div class="era-card__years">2023 &raquo;</div>
+        <h3 class="era-card__title">International Era</h3>
+        <p class="era-card__body">A Brazilian Collaboration Prize debuts, pairing UCI students with the Pontifical Catholic University of Rio Grande do Sul (PUCRS). Rebranded the International Collaboration Prize in 2025.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="years">
+  <div class="wrap">
+    <div class="section__title">
+      <h2>The years</h2>
+      <small>Browse the ledger</small>
+    </div>
+    <p style="max-width: 60ch;">Each year file lists every placement, every team roster, and every verified follow-on outcome. Click through for the details.</p>
+
+    <div class="year-grid">
+      {% assign years_desc = site.years | sort: "year" | reverse %}
+      {% for y in years_desc %}
+        {% assign status_class = "" %}
+        {% if y.status == "cancelled" %}{% assign status_class = "year-tile--cancelled" %}{% endif %}
+        {% if y.status == "missing" %}{% assign status_class = "year-tile--missing" %}{% endif %}
+        {% if y.status == "upcoming" %}{% assign status_class = "year-tile--upcoming" %}{% endif %}
+        <a href="{{ y.url | relative_url }}" class="year-tile {{ status_class }}">
+          <span class="year-tile__num">{{ y.year }}</span>
+          <span class="year-tile__label">
+            {% if y.status == "cancelled" %}Cancelled
+            {% elsif y.status == "missing" %}Records missing
+            {% elsif y.status == "upcoming" %}Upcoming
+            {% else %}{{ y.short_label | default: "View" }}
+            {% endif %}
+          </span>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section__title">
+      <h2>Why this archive exists</h2>
+      <small>Institutional memory</small>
+    </div>
+    <p class="lede" style="max-width: 62ch;">Institutional memory for student competitions tends to scatter across press releases, the Wayback Machine, defunct project sites, and LinkedIn bios. The aim here is a durable, queryable record so that two decades from now a future student, founder, or historian can see, in one place, what was built, who built it, and what happened next.</p>
+
+    <p>Every team roster, every prize amount, every follow-on company outcome on this site is sourced to a primary citation in the open-source <a href="https://github.com/BeallButterworthUCI/History">archive repository</a>. Spot a missing team member or a bad link? <a href="https://github.com/BeallButterworthUCI/History/blob/main/CONTRIBUTING.md">Open an issue.</a></p>
+  </div>
+</section>
