@@ -83,5 +83,9 @@ description: Deep-dive case studies on the BBComp teams whose work turned into s
 
 <p><strong>Sources:</strong> <a href="https://nxraise.com/">nxraise.com</a>. See the <a href="{{ '/years/2025/' | relative_url }}">2025 cycle page</a> for the AINGELX team roster.</p>
 
+<hr>
+
+<p style="font-size: 0.92rem; color: var(--ink-500); margin-top: 2rem;">Related reading: <a href="{{ '/cross-nvc/' | relative_url }}">how BBComp teams perform at the Stella Zhang NVC</a> the same year, and the <a href="{{ '/khine-lab/' | relative_url }}">Khine Lab pipeline</a> that produced two of the stories on this page.</p>
+
   </div>
 </section>

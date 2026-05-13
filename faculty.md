@@ -40,7 +40,7 @@ description: UCI faculty members who have mentored multiple BBComp teams - Prof.
       <li>From 2014 A Hundred Tiny Hands: <strong>Sophia Lin</strong>, <strong>Eugene Lee</strong>, <strong>Jolie Nokes</strong></li>
       <li>From 2019 Qardiac: <strong>Joshua "Josh" Kim</strong>, <strong>Lancy Lin</strong>, <strong>En-Fan "Sophia" Chou</strong></li>
     </ul>
-    <p>This is the densest faculty-to-PhD pipeline documented in the BBComp archive.</p>
+    <p>This is the densest faculty-to-PhD pipeline documented in the BBComp archive. <a href="{{ '/khine-lab/' | relative_url }}">Read the full Khine Lab pipeline page &rarr;</a></p>
 
     <h3>Khine spinoff companies</h3>
     <ul>
