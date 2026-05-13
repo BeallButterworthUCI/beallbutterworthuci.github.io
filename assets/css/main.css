@@ -533,7 +533,194 @@ hr {
   .site-footer__inner { grid-template-columns: 1fr; }
 }
 
-/* ---------- Year detail page ---------- */
+/* ---------- Page header (shared across year/patrons/companies) ---------- */
+
+.page-header {
+  padding: 4.5rem 0 3rem;
+  border-bottom: 1px solid var(--rule);
+  background:
+    radial-gradient(ellipse at 80% 0%, rgba(200, 169, 81, 0.08), transparent 55%),
+    linear-gradient(to bottom, var(--cream), var(--paper));
+}
+.page-header__eyebrow {
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--gold-700);
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+.page-header h1 { margin: 0 0 0.8rem; }
+.page-header__lede {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  color: var(--ink-700);
+  line-height: 1.55;
+  max-width: 56ch;
+  margin: 0;
+}
+
+/* ---------- Profile cards (people, companies) ---------- */
+
+.profile {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 2.5rem;
+  padding: 2.25rem 0;
+  border-top: 1px solid var(--rule);
+}
+.profile:first-of-type { border-top: 2px solid var(--navy-800); }
+.profile__aside {
+  font-family: var(--sans);
+}
+.profile__role {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--gold-700);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.profile__name {
+  font-family: var(--serif);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--navy-900);
+  line-height: 1.2;
+  margin-bottom: 0.3rem;
+}
+.profile__years {
+  font-size: 0.9rem;
+  color: var(--ink-500);
+}
+.profile__body { font-size: 0.97rem; }
+.profile__body p:last-child { margin-bottom: 0; }
+.profile__body h3 {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--navy-900);
+  margin: 1.5rem 0 0.6rem;
+}
+@media (max-width: 720px) {
+  .profile { grid-template-columns: 1fr; gap: 1rem; padding: 1.75rem 0; }
+}
+
+/* ---------- Company cards ---------- */
+
+.company-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin: 1rem 0 2rem;
+}
+.company-card {
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--navy-800);
+  padding: 1.75rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  transition: box-shadow 150ms, transform 150ms, border-color 150ms;
+}
+.company-card:hover {
+  box-shadow: var(--shadow-2);
+  transform: translateY(-1px);
+  border-top-color: var(--gold-500);
+}
+.company-card__origin {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold-700);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.company-card__name {
+  font-family: var(--serif);
+  font-size: 1.45rem;
+  font-weight: 600;
+  color: var(--navy-900);
+  line-height: 1.2;
+  margin: 0 0 0.6rem;
+}
+.company-card__name a { text-decoration: none; color: inherit; }
+.company-card__name a:hover { color: var(--gold-700); }
+.company-card__tag {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--ink-500);
+  margin: 0 0 1rem;
+}
+.company-card__body { font-size: 0.93rem; color: var(--ink-700); margin: 0 0 1rem; flex-grow: 1; }
+.company-card__meta {
+  font-size: 0.8rem;
+  color: var(--ink-500);
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--rule);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+}
+.company-card__meta strong { color: var(--navy-900); font-weight: 600; }
+
+/* ---------- Featured story block (landing page) ---------- */
+
+.feature-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+.feature {
+  display: flex;
+  flex-direction: column;
+  padding: 1.75rem;
+  background: var(--navy-050);
+  border-left: 3px solid var(--navy-800);
+}
+.feature__kicker {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--gold-700);
+  margin-bottom: 0.7rem;
+}
+.feature h3 {
+  font-size: 1.3rem;
+  margin: 0 0 0.7rem;
+}
+.feature p {
+  font-size: 0.95rem;
+  color: var(--ink-700);
+  margin: 0 0 1rem;
+  flex-grow: 1;
+}
+.feature a {
+  font-family: var(--sans);
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--navy-800);
+  text-decoration: none;
+  border-bottom: 1.5px solid var(--gold-500);
+  align-self: flex-start;
+  padding-bottom: 1px;
+}
+.feature a:hover {
+  color: var(--gold-700);
+  border-bottom-color: var(--gold-700);
+}
+
+/* ---------- Year detail page (original) ---------- */
 
 .year-header {
   padding: 4rem 0 2.5rem;
